@@ -1,7 +1,7 @@
-package model
+package models
 
 type Subscription struct {
-	Id    string
+	Id    int
 	Name  string
 	Price float64
 }
