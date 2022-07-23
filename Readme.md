@@ -12,8 +12,9 @@
 
 3. Launch a project 
 
-```go run main.go```
+```go run main.go```    
 
+Ready! Project is launched on port `9912`
 
 ## API endpoints
 
