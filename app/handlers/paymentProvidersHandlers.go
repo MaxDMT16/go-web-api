@@ -74,7 +74,6 @@ func getSubscriptionIdFromPath(r *http.Request) (int, error) {
 }
 
 func getSubscriptionFromDb(subscriptionId int) (models.Subscription, error) {
-	db := db.DbContext{}
-
-	return db.GetSubscriptionById(subscriptionId)
+	repository := db.SubscriptionsRepository{}
+	return repository.GetSubscriptionById(subscriptionId)
 }

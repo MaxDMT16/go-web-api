@@ -6,9 +6,9 @@ import (
 	"getheadway/app/models"
 )
 
-type DbContext struct{}
+type SubscriptionsRepository struct{}
 
-func (db *DbContext) GetSubscriptionById(id int) (models.Subscription, error) {
+func (db *SubscriptionsRepository) GetSubscriptionById(id int) (models.Subscription, error) {
 	return models.Subscription{
 		Id:    id,
 		Name:  fmt.Sprintf("Subscription %v", id),

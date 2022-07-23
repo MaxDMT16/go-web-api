@@ -2,6 +2,7 @@ package middlewares
 
 import (
 	"fmt"
+	"log"
 	"net/http"
 	"os"
 	"time"
@@ -27,6 +28,10 @@ func enrichWithResponseTime(next http.Handler, w http.ResponseWriter, r *http.Re
 }
 
 func enrichWithServerNameHeader(w http.ResponseWriter) {
-	hostname, _ := os.Hostname() //	TODO: handle error
+	hostname, err := os.Hostname()
+	if err != nil {
+		log.Print("fetching hostname failed")
+		return
+	}
 	w.Header().Set("X-Server-Name", hostname)
 }
