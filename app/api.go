@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	"getheadway/app/handlers"
-	"getheadway/app/middlewares"
+	"github.com/MaxDMT16/go-web-api/app/handlers"
+	"github.com/MaxDMT16/go-web-api/app/middlewares"
 
 	"github.com/gorilla/mux"
 )

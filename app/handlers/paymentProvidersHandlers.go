@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"strconv"
 
-	"getheadway/app/constants"
-	"getheadway/app/db"
-	"getheadway/app/models"
-	"getheadway/app/paymentproviders"
+	"github.com/MaxDMT16/go-web-api/app/constants"
+	"github.com/MaxDMT16/go-web-api/app/db"
+	"github.com/MaxDMT16/go-web-api/app/models"
+	"github.com/MaxDMT16/go-web-api/app/paymentproviders"
 
 	"github.com/gorilla/mux"
 )

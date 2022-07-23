@@ -7,9 +7,9 @@ import (
 	"os"
 	"testing"
 
-	"getheadway/app"
-	"getheadway/app/constants"
-	"getheadway/app/models"
+	"github.com/MaxDMT16/go-web-api/app"
+	"github.com/MaxDMT16/go-web-api/app/constants"
+	"github.com/MaxDMT16/go-web-api/app/models"
 )
 
 var a app.App

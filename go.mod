@@ -1,4 +1,4 @@
-module getheadway
+module github.com/MaxDMT16/go-web-api
 
 go 1.18
 

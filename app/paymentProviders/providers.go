@@ -3,7 +3,7 @@ package paymentproviders
 import (
 	"fmt"
 
-	"getheadway/app/constants"
+	"github.com/MaxDMT16/go-web-api/app/constants"
 )
 
 type PaymentProvider interface {

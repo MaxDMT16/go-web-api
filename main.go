@@ -1,6 +1,6 @@
 package main
 
-import "getheadway/app"
+import "github.com/MaxDMT16/go-web-api/app"
 
 func main() {
 	app := &app.App{}

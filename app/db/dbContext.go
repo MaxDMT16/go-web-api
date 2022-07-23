@@ -3,7 +3,7 @@ package db
 import (
 	"fmt"
 
-	"getheadway/app/models"
+	"github.com/MaxDMT16/go-web-api/app/models"
 )
 
 type SubscriptionsRepository struct{}
